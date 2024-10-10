@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="fonts/fontawesome-free/css/all.css">
+   <title>Ken | Contact</title>
+</head>
+
+<body>
+   <!-- header met banner en hoofdmenu -->
+   <header>
+      <a href="index.html"><h1>Ken</h1></a>
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="over.html">Over</a></li>
+            <li><a href="projecten.html">Projecten</a></li>
+            <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <!-- formulier en adres -->
+      <h2>Contactformulier</h2>
+      <form action="#">
+         <div>
+            <label for="vraag">Je vraag *</label>
+            <textarea id="vraag" required rows="5" cols="30"></textarea>
+         </div>
+         <div>
+            <label for="fotos">Verduidelijk eventueel met foto's</label>
+            <input type="file" id="fotos">
+         </div>
+         <div>
+            <label for="adres">Adres of regio *</label>
+            <input type="text" id="adres" required placeholder="b.v. Gent">
+         </div>
+         <div>
+            <p>Jouw gegevens, zodat ik je kan contacteren:</p>
+            <label for="naam">Naam *</label>
+            <input type="text" id="naam" required>
+         </div>
+         <div>
+            <label for="mail">Email *</label>
+            <input type="email" id="mail" required>
+         </div>
+         <div>
+            <label for="telefoon">GSM/Telefoon *</label>
+            <input type="tel" id="telefoon" name="telefoon" required>
+         </div>
+         <div>
+            <button type="submit">Verstuur</button>
+         </div>
+      </form>
+      <!-- google maps -->
+      <div>
+      </div>
+   </main>
+   <!-- footer -->
+   <footer>
+      <p>© Ken Van Ruysseveldt - 2024</p>
+   </footer>
+</body>
+
+</html>
