@@ -1,0 +1,41 @@
+/* Banner */
+h1 {
+font-size: 92px;
+font-weight: 600;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a h1 {
+    text-decoration: none;
+}
+
+/* Navigatie menu */
+nav ul {
+   background-color: #0707cc;
+   display: flex;
+   flex-flow: row nowrap;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   list-style-type: none;
+   padding: 20px 20px;
+   position: absolute;
+   right: 0;
+ }
+ 
+ nav ul a {
+    color: #cfcfcf;
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-underline-offset: 10px;
+ }
+ 
+ nav ul a:hover {
+text-decoration: underline;
+ }
+ 
+ nav ul .active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+ }
