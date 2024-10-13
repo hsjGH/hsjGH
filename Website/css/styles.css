@@ -1,41 +1,54 @@
-/* Banner */
-h1 {
-font-size: 92px;
-font-weight: 600;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-decoration: none;
-text-transform: uppercase;
+/* Header met blauwe naar paarse gradient */
+header {
+   align-items: center;
+   background: linear-gradient(90deg, #00509E, #6A0DAD);
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
 }
 
-a h1 {
-    text-decoration: none;
+/* Logo afmetingen */
+.logo {
+   height: auto; 
+   width: 350px; 
 }
 
 /* Navigatie menu */
 nav ul {
-   background-color: #0707cc;
    display: flex;
    flex-flow: row nowrap;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    list-style-type: none;
-   padding: 20px 20px;
-   position: absolute;
-   right: 0;
- }
- 
- nav ul a {
-    color: #cfcfcf;
-    display: block;
-    padding: 16px 16px;
-    text-decoration: none;
-    text-underline-offset: 10px;
- }
- 
- nav ul a:hover {
-text-decoration: underline;
- }
- 
- nav ul .active {
-    text-decoration: underline;
-    text-underline-offset: 10px;
- }
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li {
+   margin-left: 20px;
+}
+
+nav ul a {
+   color: #FFFFFF; 
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   padding: 10px 20px; 
+   background-color: rgba(0, 80, 158, 0.8);
+   border-radius: 18px;
+   transition: background-color 0.3s ease; 
+}
+
+nav ul a:hover {
+   background-color: rgba(106, 13, 173, 0.8); 
+}
+
+nav ul .active a {
+   background-color: rgba(106, 13, 173, 0.8);
+}
+
+/* Footer */
+footer {
+   text-align: center;
+   padding: 20px;
+   background-color: #666;
+   color: #FFFFFF; 
+}
