@@ -1,7 +1,7 @@
 /* Header met blauwe naar paarse gradient */
 header {
    align-items: center;
-   background: linear-gradient(90deg, #00509E, #6A0DAD);
+   background:#00379E;
    display: flex;
    justify-content: space-between;
    padding: 10px 20px;
@@ -14,36 +14,29 @@ header {
 }
 
 /* Navigatie menu */
+
 nav ul {
    display: flex;
-   flex-flow: row nowrap;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
+   list-style: none;
 }
 
-nav ul li {
-   margin-left: 20px;
-}
-
-nav ul a {
-   color: #FFFFFF; 
+nav a {
+   border-radius: 6px;
+   color: #fff;
+   display: block;
+   font-size: 14px;
+   font-weight: bold;
+   margin: 4px;
+   padding: 10px 20px;
    text-decoration: none;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 18px;
-   padding: 10px 20px; 
-   background-color: rgba(0, 80, 158, 0.8);
-   border-radius: 18px;
-   transition: background-color 0.3s ease; 
+   text-transform: uppercase;
+   transition: background 0.6s;
 }
 
-nav ul a:hover {
-   background-color: rgba(106, 13, 173, 0.8); 
+nav li.active a, nav li:hover a {
+   background: #009E;
 }
 
-nav ul .active a {
-   background-color: rgba(106, 13, 173, 0.8);
-}
 
 /* Footer */
 footer {
